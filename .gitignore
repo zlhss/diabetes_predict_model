@@ -1,0 +1,51 @@
+# Local datasets and generated predictions
+/data/*
+!/data/README.md
+/outputs/*
+!/outputs/.gitkeep
+/pre.csv
+/xgb_submission*.csv
+/shap_summary_*.png
+
+# Python caches, environments, and packaging output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+.venv/
+venv/
+env/
+.conda/
+build/
+dist/
+*.egg-info/
+
+# Local experiment state and trained model artifacts
+*.log
+*.db
+*.sqlite*
+*.pkl
+*.pickle
+*.joblib
+*.ubj
+*.model
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+*.pem
+*.key
